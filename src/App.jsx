@@ -7,9 +7,8 @@ function App() {
  
   return (
     <>
-    <div  className="bg-black text-white min-h-screen p-5">
-      <h1 className="text-4xl font-bold">
-      Market Maruders</h1>
+    <div  className="min-h-screen bg-black flex items-center justify-center">
+      <Board />
       </div>
     </>
   )
