@@ -1,16 +1,22 @@
-# React + Vite
+# Market Marauder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚧 Work in Progress
 
-Currently, two official plugins are available:
+## About
+Market Marauder is a strategy-based game that I am building.This project is being built from scratch as a hands-on learning experience. Each feature is implemented step by step, focusing on understanding the underlying concepts rather than simply following tutorials. The repository is updated regularly to document progress and improvements throughout the development process.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- Tailwind CSS
+- JavaScript
 
-## React Compiler
+## Current Progress
+- ✅ Game board UI
+- ✅ Basic layout
+- 🚧 Game logic in progress
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Upcoming Features
+- Player movement
+- Buying and selling system
+- Score tracking
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
