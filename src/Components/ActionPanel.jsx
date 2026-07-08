@@ -1,10 +1,11 @@
+import Dice from "./Dice"
+
 function ActionPanel (){
   return(
-    <div>
-      <h2>
-        Action Panel
-      </h2>
+    <div 
+    className="w-full bg-slate-900 rounded-2xl p-1 flex items-center justify-between">
+      <Dice/>
     </div>
-  )
+  );
 }
 export default ActionPanel

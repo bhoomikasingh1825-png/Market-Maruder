@@ -12,10 +12,10 @@ function Roll (){
 
 // dice
 return (
-  <div  className="min-h-screen flex flex-col items-center justify-center bg-gray-900">
-     <h2 className="text-8xl bg-white w-32 h-32 rounded-xl flex items-center justify-center shadow-lg">{dicefaces[dice - 1]}</h2>
+  <div  className="flex flex-col items-center justify-center">
+     <h2 className="text-5xl bg-white w-10 h-8  rounded-lg flex items-center justify-center shadow-lg bottom-0 left-0 inset-y-0">{dicefaces[dice - 1]}</h2>
      <button onClick={Roll}
-           className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+           className=" px-2 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
 
         Roll Dice
       </button>

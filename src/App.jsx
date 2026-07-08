@@ -1,18 +1,23 @@
 import Board from "./Components/Board"
-import Dice from "./Components/Dice"
-import MarketTraker from "./Components/MarketTraker"
+import PlayerInfo from "./Components/PlayerInfo"
 import ActionPanel from "./Components/ActionPanel"
-
+import Valuetraker from "./Components/Valuetracker"
 function App() {
- 
   return (
     <>
-    <div  className="min-h-screen bg-black flex items-center justify-center">
+   <div
+   className="min-h-screen bg-black flex justify-center items-center relative">
+    <div
+    className="w-full max-w-7xl space-y-6">
+      <Valuetraker/>
       <Board/>
-      <Dice/>
-      </div>
-    </>
-  )
+      <ActionPanel/>
+      <PlayerInfo/>
+    </div>
+   </div>
+  </>
+  );
+
 }
 
-export default App
+export default App;
