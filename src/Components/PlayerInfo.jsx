@@ -1,21 +1,4 @@
-import { useState } from "react";
-
-function PlayerInfo (){
-const [Player,setPlayer] = useState ({
-  name : 'Player1',
-  position : '0',
-  gold :'0',
-  credit :'0',
-  seed :'0',
-  ore :'0',
-});
-function handleRoll (){
-  const dice = Math.floor(Math.random()*6)+1;
-  setPlayer((Prev) =>({
-    ...Prev,
-    position : (Prev.position + dice)% 12,
-  }));
-}
+function PlayerInfo({ player }) {
 return(
 <div className="w-full rounded-xl border border-blue-900 bg-[#171427]
 p-4 shadow-lg">
@@ -28,8 +11,14 @@ p-4 shadow-lg">
 <span className="text-2xl">👤</span>
 
 <p className="font-semibold text-white">
-Player1
+  {player.name}
 </p>
+  <p className="text-white">
+   
+   Position: {player.position}
+  
+  </p>
+
 <div className="flex gap-8">
   <p className="text-yellow-400">
 🪙 Gold 2
