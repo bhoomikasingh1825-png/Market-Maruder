@@ -1,4 +1,4 @@
-const spaces = [
+ export const spaces = [
   "Mine",
   "Market",
   "Refinery",
@@ -12,7 +12,7 @@ const spaces = [
   "Market",
   "Refinery",]
   
-function Board(){
+function Board({players}){
    const xRadius = 320;
   const yRadius = 180;
 

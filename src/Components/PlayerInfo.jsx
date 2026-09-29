@@ -1,4 +1,4 @@
-function PlayerInfo({ player }) {
+function PlayerInfo({player}) {
 return(
 <div className="w-full rounded-xl border border-blue-900 bg-[#171427]
 p-4 shadow-lg">
@@ -11,7 +11,7 @@ p-4 shadow-lg">
 <span className="text-2xl">👤</span>
 
 <p className="font-semibold text-white">
-  {player.name}
+  {player.name} 
 </p>
   <p className="text-white">
    
@@ -21,15 +21,15 @@ p-4 shadow-lg">
 
 <div className="flex gap-8">
   <p className="text-yellow-400">
-🪙 Gold 2
+🪙 Gold: {player.gold}
 </p>
 
 <p className="text-blue-400">
-💳 Credits 5
+💳 Credits: {player.credits}
 </p>
 
 <p className="text-green-400">
-🌱 Seeds 1
+🌱 Seeds: {player.seeds}
 </p>
 </div>
 </div>
